@@ -16,7 +16,7 @@ wget -nc -P $folder $(cat $adr | tr -s '\n' | head -n $((var+1)) | tail -1 | cut
 rm index*
 
 PICTURE=$(ls *jpg)
-gsettings set org.gnome.desktop.background picture-uri file:///home/alex/Pictures/National_Geographic/$PICTURE
+gsettings set org.gnome.desktop.background picture-uri file://~/Pictures/National_Geographic_POD/$PICTURE
 
 if test $# -eq 1; then
     if test $1 = "-s" -o $1 = "--save-image"; then
