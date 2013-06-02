@@ -1,5 +1,4 @@
 #!/bin/bash
-#TODO: set the folder where you would like to download the
 cd ~/Pictures/
 mkdir National_Geographic_POD
 mkdir Saved_pictures_natgeo
